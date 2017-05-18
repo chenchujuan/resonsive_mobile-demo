@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	
+	<link rel="stylesheet" href="./css/main.css" type="text/css" />
+	<title>手机端弹性布局</title>
+	<style>
+		@font-face {
+			font-family: 'icon-index';
+		    src: url('./css/iconfont.eot');
+		    src: url('./css/iconfont.eot?#iefix') format('embedded-opentype'),
+		    url('./css/iconfont.woff') format('woff'),
+		    url('./css/iconfont.ttf') format('truetype'),
+		    url('./css/iconfont.svg#iconfontyyy') format('svg');
+		}
+
+		[class*="icon-"]{
+		    font-family:"icon-index" !important;
+		    font-size:16px;font-style:normal;
+		    -webkit-font-smoothing: antialiased;
+		    -webkit-text-stroke-width: 0.2px;
+		    -moz-osx-font-smoothing: grayscale;
+
+		}
+	</style>
+	<script>
+	//动态像素比  
+		var iWidth = document.documentElement.clientWidth/20;/*业界常用比值*/
+		document.getElementsByTagName('html')[0].style.fontSize = iWidth + 'px';
+	</script>
+</head>
+<body>
+	<div id="container">
+		<header>
+			<div class="headerfix">
+				<div class="header-top">
+					<i class="icon-index" style="color:rgba(255,255,255,0);">&#xe600;</i>
+					<h1>发现</h1>
+					<i class="icon-index">&#xe600;</i>
+				</div>
+				<nav>
+					<ul>
+						<li>精选</li>
+						<li>动态</li>
+						<li>赛事</li>
+						<li class="active">商城</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header-middle">
+				<img src="./images/1.png" alt="">
+			</div>
+			<div class="header-bottom">
+				<ul>
+					<li>
+						<i class="icon-two">&#xe602;</i>
+						<span>优惠券</span>
+					</li>
+					<li>
+						<i class="icon-two">&#xe77d;</i>
+						<span>积分兑换</span>
+					</li>
+					<li>
+						<i class="icon-two">&#xe63f;</i>
+						<span>新人专享</span>
+					</li>
+					<li>
+						<i class="icon-two">&#xe615;</i>
+						<span>商品分类</span>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<section>
+			<div class="section1">
+				<div class="section1-left section1-1">
+					<div class="text">
+						<p style="color:#8dc5f6">今日秒杀</p>
+						<span class="scolor">阿迪跑鞋特价</span>
+					</div>
+					<img src="images/3.png" alt="" style="width:100%">
+				</div>
+				<div class="section1-right section1-1" >
+					<div class="section1-right-top rb">
+						<div class="text">
+							<p style="color:#ffb259">排行榜</p>
+							<span class="scolor">每周畅销品</span>
+						</div>
+						
+						<img src="images/4.png" alt="">
+					</div>
+					<div class="section1-right-bottom rb">
+						<div class="text">
+							<p style="color:#67d162">清仓甩卖</p>
+							<span class="scolor">超值低价清仓</span>
+						</div>
+						
+						<img src="images/5.png" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="section2">
+				<div class="titles">
+					<p>本周最大牌</p>
+					<span>全部></span>
+				</div>
+				<div class="main">
+					<div>
+						<p>亚瑟士</p>
+						<span>大牌也有低价</span>
+						<img src="./images/6.png">
+					</div>
+					<div>
+						<p>专享优惠</p>
+						<span>发现SUUNTO</span>
+						<img src="./images/7.png">
+					</div>
+					<div>
+						<p>NB</p>
+						<span>新品直降</span>
+						<img src="./images/8.png">
+					</div>
+					<div>
+						<p>骑行头盔</p>
+						<span>轻量安全</span>
+						<img src="./images/9.png">
+					</div>
+					<div>
+						<p>Nike</p>
+						<span>Just do it</span>
+						<img src="./images/10.png">
+					</div>
+					<div>
+						<p>瘦身代餐</p>
+						<span>买一赠一</span>
+						<img src="./images/11.png" class="srcs">
+					</div>
+				</div>
+			</div>
+			<div class="section3">
+				<img src="./images/2.png" alt="">
+			</div>
+			<div class="section4">
+				<div class="titles">
+					<p style="margin-top: 0;">本周最大牌</p>
+					<span>全部></span>
+				</div>
+				<div class="section4-main">
+					<div class="section4-left rb" >
+						<div class="section4-left-top rt">
+							<div class="text">
+								<p>型男必备</p>
+								<span>专业炫酷</span>
+							</div>
+							
+							<img src="images/12.png" alt="">
+						</div>
+						<div class="section4-left-bottom rt">
+							<div class="text">
+								<p>型男必备</p>
+								<span>专业炫酷</span>
+							</div>
+							
+							<img src="images/12.png" alt="">
+						</div>
+						</div>
+					<div class="section4-right rb">
+						<div class="section4-right-top rt">
+							<div class="text">
+								<p>女神专场</p>
+								<span>靓丽吸睛</span>
+							</div>
+							<img src="images/13.png" alt="">
+						</div>
+						<div class="section4-right-bottom rt">
+							<div class="text">
+								<p>女神专场</p>
+								<span>靓丽吸睛</span>
+							</div>
+							<img src="images/13.png" alt="">
+						</div>
+					</div>		
+				</div>
+			</div>
+		</section>
+	
+		<footer>
+			<ul>
+				<li>
+					<i class="icon-index">&#xe6bd;</i>
+					<span>跑步</span>
+				</li>
+				<li>
+					<i class="icon-index">&#xe671;</i>
+					<span>训练</span>
+				</li>
+				<li>
+					<i class="icon-index" style="color: #23c788">&#xe607;</i>
+					<span style="color: #23c788">发现</span>
+				</li>
+				<li>
+					<i class="icon-index">&#xe629;</i>
+					<span>我的</span>
+				</li>
+			</ul>
+		</footer>
+	</div>
+	
+</body>
+</html>

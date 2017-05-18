@@ -1,0 +1,345 @@
+@charset "utf-8";
+/*初始化css开始*/
+html,
+body {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: #ebf0f3;
+  color: #fff;
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  /* 兼容苹果设备  (sans-serif):如果前面都找不到  则使用设备本身字体 */
+  font-family: helvetica Neue, STHeiTi, sans-serif;
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+}
+ul,
+ol,
+menu {
+  list-style: none;
+}
+address,
+cite,
+dfn,
+h1,
+i,
+em,
+optgroup,
+var {
+  font-size: normal;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+main,
+menu,
+header,
+nav,
+section {
+  display: block;
+}
+/*css初始化结束*/
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#container header {
+  overflow: hidden;
+  background: #23c788;
+}
+#container header .headerfix {
+  width: 100%;
+  overflow: hidden;
+  background-color: #23c788;
+  position: fixed;
+}
+#container header .headerfix .header-top {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#container header .headerfix .header-top .icon-index {
+  font-size: 1.6rem;
+  text-align: right;
+  padding-right: 0.25rem;
+}
+#container header .headerfix .header-top h1 {
+  font-weight: 500;
+  font-size: 1rem;
+}
+#container header .headerfix nav {
+  height: 1.5rem;
+  background: #23c788;
+  width: 100%;
+}
+#container header .headerfix nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#container header .headerfix nav ul li {
+  flex: 1;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+#container header .headerfix nav ul .active {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+#container header .header-middle {
+  width: 100%;
+}
+#container header .header-middle img {
+  width: 100%;
+  display: block;
+  margin-top: 3.5rem;
+}
+#container header .header-bottom {
+  background-color: #fff;
+  height: 5rem;
+  color: #000;
+}
+#container header .header-bottom ul {
+  display: flex;
+  height: 100%;
+}
+#container header .header-bottom ul li {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  text-align: center;
+  margin-top: 0.9rem;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+#container header .header-bottom ul li span {
+  font-size: 0.9rem;
+}
+#container header .header-bottom ul li .icon-two {
+  color: #23c788;
+  font-size: 1.8rem;
+}
+#container section {
+  height: 120px;
+}
+#container section .scolor {
+  color: #d9d9d9;
+}
+#container section .section1 {
+  background: #fff;
+  display: flex;
+}
+#container section .section1 .text {
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+#container section .section1 .text p {
+  font-size: 0.9rem;
+}
+#container section .section1 .text span {
+  font-size: 0.1rem;
+}
+#container section .section1 .section1-left {
+  display: flex;
+  flex-direction: column;
+  border-right: 0.05rem solid #ebf0f3;
+}
+#container section .section1 .section1-1 {
+  height: 11.1rem;
+  width: 50%;
+}
+#container section .section1 .section1-right {
+  display: flex;
+  flex-direction: column;
+}
+#container section .section1 .section1-right .section1-right-top {
+  border-bottom: 1px solid #ebf0f3;
+}
+#container section .section1 .section1-right .rb {
+  display: flex;
+  height: 50%;
+}
+#container section .section1 .section1-right .rb img {
+  width: 50%;
+  height: 100%;
+}
+#container section .section1,
+#container section .section2,
+#container section .section3,
+#container section .section4,
+#container section footer {
+  margin-top: 0.5rem;
+  overflow: hidden;
+}
+#container section .section2,
+#container section .section4 {
+  display: flex;
+  background: #fff;
+  flex-direction: column;
+}
+#container section .section2 .titles,
+#container section .section4 .titles {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 0;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid #ebf0f3;
+}
+#container section .section2 .main,
+#container section .section4 .main {
+  display: flex;
+  flex-wrap: wrap;
+}
+#container section .section2 .main div,
+#container section .section4 .main div {
+  display: flex;
+  flex-direction: column;
+  width: 33.333%;
+  overflow: hidden;
+  height: 8.5rem;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #eee;
+}
+#container section .section2 .main div p,
+#container section .section4 .main div p {
+  margin-top: 0.5rem;
+}
+#container section .section2 .main div img,
+#container section .section4 .main div img {
+  width: 5rem;
+  height: 5rem;
+  align-self: center;
+}
+#container section .section2 p,
+#container section .section4 p {
+  font-size: 0.8rem;
+  color: #000;
+  text-align: center;
+}
+#container section .section2 span,
+#container section .section4 span {
+  color: #d9d9d9;
+  text-align: center;
+  font-size: 0.4rem;
+}
+#container section .section3 {
+  width: 100%;
+}
+#container section .section3 img {
+  width: 100%;
+}
+#container section .section4 {
+  margin-bottom: 4.5rem;
+}
+#container section .section4 .section4-main {
+  display: flex;
+}
+#container section .section4 .section4-main .rb {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  color: #000;
+}
+#container section .section4 .section4-main .rb .rt {
+  display: flex;
+  border-right: 1px solid #ebf0f3;
+  border-bottom: 1px solid #ebf0f3;
+  height: 5.5rem;
+}
+#container section .section4 .section4-main .rb .rt .text {
+  margin-top: 0.5rem;
+  padding-left: 0.5rem;
+  width: 50%;
+  text-align: center;
+}
+#container section .section4 .section4-main .rb .rt .text p {
+  color: #000;
+}
+#container section .section4 .section4-main .rb .rt .text span {
+  color: #e0e0e0;
+}
+#container section .section4 .section4-main .rb img {
+  margin-top: 0.4rem;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+#container footer {
+  width: 100%;
+  position: fixed;
+  border-top: 1px solid #ded5d5;
+  background: #fff;
+  height: 3.8rem;
+  bottom: 0;
+}
+#container footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+#container footer ul li {
+  display: flex;
+  flex-direction: column;
+  color: #b4b0b0;
+}
+#container footer ul li i {
+  font-size: 1.5rem;
+}
+#container footer ul li span {
+  font-size: 0.6rem;
+}

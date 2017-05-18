@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Document</title>
+	<script src="./js/jquery-1.11.3.js"></script>
+
+	<script src="./js/bootstrap.js"></script>
+	<link rel="stylesheet" href="./style/normalize.css" type="text/css"/>
+	
+	<link rel="stylesheet" href="./style/bootstrap.css" type="text/css"/>
+	<link rel="stylesheet" href="./style/index.css" type="text/css"/>
+	
+	<style>
+		@font-face {
+			font-family: 'icon-index';
+		    src: url('./style/iconfont.eot');
+		    src: url('./style/iconfont.eot?#iefix') format('embedded-opentype'),
+		    url('./style/iconfont.woff') format('woff'),
+		    url('./style/iconfont.ttf') format('truetype'),
+		    url('./style/iconfont.svg#iconfontyyy') format('svg');
+		}
+
+		[class*="icon-"]{
+		    font-family:"icon-index" !important;
+		    font-size:16px;font-style:normal;
+		    -webkit-font-smoothing: antialiased;
+		    -webkit-text-stroke-width: 0.2px;
+		    -moz-osx-font-smoothing: grayscale;
+
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default">
+	 	<div class="container-fluid">
+	 		<!-- <div class="row"></div> --> 
+	 		<li>&nbsp;</li>
+		    <div class="navbar-header col-md-2 col-md-offset-2">		
+
+		      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        	<span class="sr-only">Toggle navigation</span>
+		       	 	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		        	<span class="icon-bar"></span>
+		      </button>
+
+		     <img src="./images/logo.png" alt="">
+		    </div>
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      	<ul class="nav navbar-nav navbar-right">
+		      		<li class="active"><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+		        	<li><a href="#">动态</a></li>
+		        	<li class="dropdown">
+		           		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">赛事 <span class="caret"></span></a>
+				        <ul class="dropdown-menu">
+				            <li><a href="#">同城</a></li>
+				            <li><a href="#">赛事照片</a></li>
+				            <li><a href="#">赛事预告</a></li>
+				            <li role="separator" class="divider">赛事照片</li>
+				            <li><a href="#">相关周边</a></li>
+				            <li role="separator" class="divider"></li>
+				            <li><a href="#">更多</a></li>
+				        </ul>
+				    </li>
+		        	<li class="dropdown">
+		          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">商城 <span class="caret"></span></a>
+		          		<ul class="dropdown-menu">
+		           		 	<li role="separator"><a href="">商品分类</a></li>
+		            		<li role="separator"><a href="#">新人专享</a></li>
+		            		<li role="separator"><a href="">积分兑换</a></li>
+		            		<li role="separator"><a href="#">优惠券</a></li>
+		         		</ul>
+		        	</li>
+		        	<button class="btn-success btn-lg btn-1">登录</button>
+		        <button class="btn-success btn-lg btn-1">注册</button>
+		     	</ul>
+		    </div>
+	 		<!-- <li>&nbsp;</li> -->
+
+	  </div>
+	</nav>
+
+	<div class="banner containerss-fluid">
+		<img src="./images/banner.jpg" class="img-responsive" alt="Responsive image">
+	</div>
+	<div class="container-fluid main1">
+		<div class="row row3">
+			<h1 class="text-center">运动改变生活</h1>
+			<p class="text-center">运动正在用你无法想象的力量改变着你的生活，改变着一个人的习性</p>	
+		</div>
+		<div class="row">
+			<div class="container center-block row2">
+			<ul class="row">
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<i class="icon-index">&#xe62c;</i>
+					<h4>所有动态</h4>
+					<p>无人驾驶车将改变人们的出行方式。据估计，无人驾驶车可将每年因交通事故死亡的人数(120万)削减一半。</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3  main text-center">
+					<i class="icon-index">&#xe654;</i>
+					<h4>精选</h4>
+					<p>无人驾驶车将改变人们的出行方式。据估计，无人驾驶车可将每年因交通事故死亡的人数(120万)削减一半。</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<i class="icon-index">&#xe601;</i>
+					<h4>赛事</h4>
+					<p>未来将会有更多给人们生活带来改变的机器人，甚至机器人会有自己的情感。</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3  main text-center">
+					<i class="icon-index">&#xe625;</i>
+					<h4>商城</h4>
+					<p>人们已经在利用无人机寻找等待救援的远足者和滑雪者，拍摄房屋航空图像，以及调查考古遗址。</p>
+				</li>
+			</ul>
+			<br>
+			<br>
+		</div>
+		
+		</div>
+	</div>
+	<div class="container main2">
+		<div class="row">
+			<h1 class="text-center">运动装备</h1>
+			<p class="text-center">运动正在用你无法想象的力量改变着你的生活，改变着一个人的习性</p>	
+		</div>
+		<div class="text-center nav2">
+			<div class="btn-group">
+			 	<button type="button" class="btn btn-success btn-lg" style="background:#24c68a;">
+			 		全部
+			 	</button>  
+			  	<button type="button" class="btn btn-lg ">精选</button>
+			  	<button type="button" class="btn btn-lg">动态</button>
+			  	<button type="button" class="btn btn-lg">商城</button>
+			  	<button type="button" class="btn btn-lg">运动</button>
+			  	<button type="button" class="btn btn-lg">
+			 	训练</button>
+			 	<button type="button" class="btn btn-lg">
+			 	更多</button>
+			 	<button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    	<span class="caret"></span>
+			 	 </button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="container center-block">
+			<ul class="row">
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<img src="./images/3.jpg" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3  main text-center">
+					<img src="./images/4.jpg" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<img src="./images/8.png" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3  main text-center">
+					<img src="./images/6.jpg" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+			</ul>
+			<br>
+			<br>
+			<ul class="row">
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center" >
+					<img src="./images/3.png" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3
+				main text-center">
+					<img src="./images/7.jpg" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<img src="./images/7.png" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<img src="./images/6.png" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+			</ul>
+		</div>
+		</div>
+		
+	</div>
+	<div class="container main2">
+		<div class="row">
+			<h1 class="text-center">赛事照片</h1>
+			<p class="text-center">运动正在用你无法想象的力量改变着你的生活，改变着一个人的习性</p>	
+		</div>
+		<div class="row">
+			<div class="container center-block">
+			<ul class="row">
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<img src="./images/3.jpg" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3  main text-center">
+					<img src="./images/4.jpg" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<img src="./images/8.png" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3  main text-center">
+					<img src="./images/6.jpg" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+			</ul>
+			<br>
+			<br>
+			<ul class="row">
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center" >
+					<img src="./images/3.png" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3
+				main text-center">
+					<img src="./images/7.jpg" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<img src="./images/7.png" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-3 main text-center">
+					<img src="./images/6.png" class="img-responsive center-block" alt="Responsive image">
+					<h4>亚瑟士</h4>
+					<p>4677元</p>
+				</li>
+			</ul>
+		</div>
+		</div>
+		
+	</div>
+	<div class="container-fluid main1 blog">
+		<div class="row row3">
+			<h1 class="text-center">博客资讯</h1>
+			<p class="text-center">分享最新科技资讯，关注智能硬件</p>	
+		</div>
+		<div class="row">
+			<div class="container center-block row2">
+			<ul class="row">
+				<li class="col-sm-6 col-md-6 col-lg-6 main text-center">
+					<div class="col-lg-4 center-block"><img src="./images/robot.jpg" alt="" class="center-block img-responsive"></div>
+					<h4 class="col-lg-8">人工智能风口来袭 情感机器人众望所归</h4>
+					<p class="col-lg-8">近日，习近平在中科大“检阅”了多款人工智能机器人，Gowild智能科技公司开发的全球首款情感社交机器人“公子小白”激萌可爱，分外抢眼。据悉，受“检阅”...</p>					
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-6 main text-center">
+					<div class="col-lg-4 center-block"><img src="./images/fox.jpg" alt="" class="center-block"></div>
+					<h4 class="col-lg-8">人工智能风口来袭 情感机器人众望所归</h4>
+					<p class="col-lg-8">近日，习近平在中科大“检阅”了多款人工智能机器人，Gowild智能科技公司开发的全球首款情感社交机器人“公子小白”激萌可爱，分外抢眼。据悉，受“检阅”...</p>					
+				</li>
+				<li class="col-sm-12 col-md-6 col-lg-6 main text-center">
+					<div class="col-lg-4 center-block"><img src="./images/facebook.jpg" alt="" class="center-block"></div>
+					<h4 class="col-lg-8">人工智能风口来袭 情感机器人众望所归</h4>
+					<p class="col-lg-8">近日，习近平在中科大“检阅”了多款人工智能机器人，Gowild智能科技公司开发的全球首款情感社交机器人“公子小白”激萌可爱，分外抢眼。据悉，受“检阅”...</p>					
+				</li>
+				<li class="col-sm-6 col-md-6 col-lg-6 main text-center">
+					<div class="col-lg-4 center-block"><img src="./images/guge.jpg" alt="" class="center-block"></div>
+					<h4 class="col-lg-8">人工智能风口来袭 情感机器人众望所归</h4>
+					<p class="col-lg-8">近日，习近平在中科大“检阅”了多款人工智能机器人，Gowild智能科技公司开发的全球首款情感社交机器人“公子小白”激萌可爱，分外抢眼。据悉，受“检阅”...</p>					
+				</li>
+			</ul>
+			<br>
+			<br>
+		</div>
+		
+		</div>
+	</div>
+	<div class="container main3">
+		<div class="row">
+			<h1 class="text-center">关于我们</h1>
+			<p class="text-center">我们致力于让科技改善人们的生活</p>
+		</div>
+		<div class="row">
+			<img src="./images/about.jpg" alt="" class="center-block img-responsive">
+			<div class="text">
+				<h5>科坦技公司是一个诞生于2013年机器人浪潮来袭前际，总部位于“硬件之都”中国深圳。</h5>
+				<h5>我们是一群热衷于智能机器人的极客、设计师和发烧友，对未来充满无限创想、野心和激情。“在最好的时光里，撒野去”是我们所倡导的品牌文化，号召属于这个时代的年轻人，不羁束缚、随心逐梦！</h5>
+				<h5>比普通创客幸运一些的是，我们成立之初，就在语义技术、图数据管理和供应链方面拥有比较丰富的经验和积累，并且、汇聚整合了完善的生产链条和多元的渠道资源，我们愿意拥抱大胆有趣的产品理念，为用户创造更多的惊喜！</h5>
+			</div>
+			
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<dl class="text-center">
+						<dt>产品</dt>
+						<dd>智能手表</dd>
+						<dd>智能眼镜</dd>
+						<dd>机器人</dd>
+						<dd>体感车</dd>
+						<dd>无人机</dd>
+					</dl>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<dl class="text-center">
+						<dt>支持</dt>
+						<dd>售后政策</dd>
+						<dd>相关下载</dd>
+					</dl>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<dl class="text-center">
+						<dt>博客</dt>
+						<dd>产业资讯</dd>
+						<dd>行业动态</dd>
+						<dd>国家资讯</dd>
+					</dl>
+				</div>
+				<div class="col-lg-2 col-md-4 col-sm-6">
+					<dl class="text-center dll">
+						<dt>关于</dt>
+						<dd>关于我们</dd>
+						<dd>联系我们</dd>
+						<dd>加入我们</dd>
+						<dd>意见反馈</dd>
+					</dl>
+				</div>
+				<div class="col-lg-2 col-md-6 col-sm-12">
+					<dl class="text-center">
+						<dt>400-000-000</dt>
+						<dd>周一至周五 08:30~17:30</dd>
+						<dd></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
